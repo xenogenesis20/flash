@@ -19,6 +19,7 @@ export const Login = () => {
 
 	return (
 		<form>
+			<h1>log in</h1>
 			{login.error && <div className="alert alert-danger">Error at login</div>}
 			<div className="mb-3">
 				<label htmlFor="exampleInputEmail1" className="form-label">
