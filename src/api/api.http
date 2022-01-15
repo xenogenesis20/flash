@@ -1,0 +1,22 @@
+### Register Request
+POST https://3001-aquamarine-reindeer-ssu21utt.ws-us20.gitpod.io/api/register
+Content-Type: application/json
+
+{
+    "email": "sales@codexsw.com",
+    "password": "yo123"
+}
+
+
+### Login Request
+POST https://3001-aquamarine-reindeer-ssu21utt.ws-us20.gitpod.io/api/login
+Content-Type: application/json
+
+{
+    "email": "ernesto@gmail.com",
+    "password": "pass1234"
+}
+
+### Protected Request
+GET https://3001-aquamarine-reindeer-ssu21utt.ws-us20.gitpod.io/api/hello
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYzODQwMTk0NSwianRpIjoiMTBiYWY4MjctN2IwMi00ZjNmLWFhYzAtNjg4ODMwZTI0Mjk3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MTAsIm5iZiI6MTYzODQwMTk0NSwiZXhwIjoxNjM4NDAyODQ1fQ.bP6DpbR9BHhxZQUTK8NFOQL5kmDw5fArhWgLC9Wb8qU
